@@ -8,7 +8,7 @@ import random
 import string
 
 def gen_password(length=10):
-    return u''.join([random.SystemRandom().choice("{}{}{}".format(string.ascii_letters, string.digits, u"!@#$%^&*(-_=+)")) for i in xrange(length)])
+    return u''.join([random.SystemRandom().choice("{}{}{}".format(string.ascii_letters, string.digits, u"#%^-_=+")) for i in xrange(length)])
 
 
 if __name__ == "__main__":
