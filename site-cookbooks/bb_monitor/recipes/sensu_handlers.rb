@@ -1,6 +1,7 @@
 %w[
   flowdock
   redphone
+  fog
 ].each do |package|
   gem_package package do
     action :install
